@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@900&display=swap');
+body{
+  padding: 0px;
+  margin:0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #DBEFFF;
+}
+.block_1{
+  background-image: url('/Users/yarovoy/Desktop/Teacher day/background.png');
+  margin:0px;
+  width:1440px;
+  height:548px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big_div{
+  width:1090px;
+  height: 500px;
+  display:flex;
+  align-items: flex-end;
+}
+.dmitriy{
+  width:450px;
+  height:590px;
+  position:relative;
+  bottom:-48px;
+  right: -350px;
+}
+.text_div{
+  height:250px;
+  width:1090px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+}
+.text_div>*{
+  margin: 0px;
+  padding: 0px;
+  margin:5px;
+}
+.name_text{
+  font-size:96px;
+  font-family: 'Deserved';
+}
+.sub_header{
+  font-size:48px;
+  font-family: 'gaoel';
+}
+.block_2{
+  background-image: url('/Users/yarovoy/Desktop/Teacher day/background 3.png');
+  width:1440px;
+  height:400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header_montserrat{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 64px;
+  width:600px;
+  padding:0px;
+  margin:0px;
+  color:rgb(5, 82, 130);
+}
+.text_div_block_2{
+  width:600px;
+  height: 200px;
+}
+.text_wishes{
+  width:600px;
+  height:160px;
+  padding:0px;
+  margin:0px;
+  font-size: 20px;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  color:rgb(140, 140, 140);
+}
+.block_3{
+  background-image: url('/Users/yarovoy/Desktop/Teacher day/background 2.png');
+  width: 1440px;
+  height: 531px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.header_text{
+  width: 1440px;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_text>h2{
+  font-family: 'Fira Sans';
+  font-weight: 900;
+  font-size: 64px;
+  position: absolute;
+  z-index: 1;
+}
+.buttons{
+  width:500px;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.voice_wishes {
+  width: 200px;
+  height: 60px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #ff9b19;
+  /*animation-name: animation;*/
+  animation-duration:0.5s;
+}
+.voice_wishes:hover {
+  background-color: #f8a73d;
+}
+.voice_wishes:active {
+  top: 2px;
+}
+.voice_wishes>p{
+  /*animation-name:nothing ;*/
+  animation-duration: 0.01ms;
+}
+.handwrite_wishes {
+  width: 200px;
+  height:60px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #ff9b19;
+  font-size: 20px;
+}
+.handwrite_wishes:hover {
+  background-color: #f8a73d;
+}
+.handwrite_wishes:active {
+  top: 2px;
+}
+.hands{
+  position: relative;
+  bottom: -50px;
+}
+.voice_div{
+  width:1440px;
+  height:1484px;
+  position: absolute;
+  top:0px;
+  z-index: 2;
+  display: none;
+  animation-duration:2s;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('/Users/yarovoy/Desktop/Teacher day/background 4.png');
+}
+.voice_div_part1>h2{
+  font-size:96px;
+  color:white;
+  font-family: 'Montserrat';
+}
+.voice_div_part2{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: column;
+  height: 1200px;
+  width:1200px;
+}
+.voice_wish1{
+  width:286px;
+  height:135px;
+  background-color:#9948FF;
+  box-shadow:inset 3px 3px 25px  rgba(255, 255, 255, 0.403), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.voice_div>img{
+  position: absolute;
+  top:25px;
+  cursor: pointer;
+  right:30px;
+  width:70px;
+  height:70px;
+}
+.row{
+  display: flex;
+  width:1100px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.row_special{
+  display: flex;
+  width:1100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.part_name2>h4{
+  font-size:24px;
+  color:white;
+  font-family: 'Montserrat';
+  width:286px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.voice_wish_part2{
+  margin:0px;
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice_wish_part1{
+  margin:0px;
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+audio{
+  background-color: none;
+  position: relative;
+  top:-20px;
+  width:200px;
+}
+.random_appear{
+  position: absolute;
+  z-index:50;
+  display: none;
+}
+.closer_txt{
+  width:70px;
+  height:70px;
+  position: absolute;
+  right:500px;
+  top:200px;
+  z-index:51;
+  display: none;
+}
+.black{
+  background-color: black;
+  position: absolute;
+  z-index:49;
+  opacity: 70%;
+  width:1440px;
+  height:1481px;
+  display: none;
+}
+@keyframes animation {
+  0%{
+    width:200px;
+    height:60px;
+  }
+  100%{
+    width: 1440px;
+    height: 2880px;
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    background: #ff9b19;
+  }
+}
+@keyframes nothing {
+  0%{
+    display: block;
+    opacity: 100%;
+  }
+  1%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
+@keyframes allIs {
+  0%{
+    display: flex;
+    opacity: 0%;
+  }
+  1%{
+    opacity: 20%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+@font-face {
+  font-family:"Cadet"; 
+  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/Cadet-Black.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family:"Deserved"; 
+  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/Deserved-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face {
+  font-family:"gaoel"; 
+  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/gaoel.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
