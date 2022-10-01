@@ -9,7 +9,7 @@ body{
   background-color: #DBEFFF;
 }
 .block_1{
-  background-image: url('/Users/yarovoy/Desktop/Teacher day/background.png');
+  background-image: url('background.png');
   margin:0px;
   width:1440px;
   height:548px;
@@ -55,7 +55,7 @@ body{
   font-family: 'gaoel';
 }
 .block_2{
-  background-image: url('/Users/yarovoy/Desktop/Teacher day/background 3.png');
+  background-image: url('background 3.png');
   width:1440px;
   height:400px;
   display: flex;
@@ -88,7 +88,7 @@ body{
   color:rgb(140, 140, 140);
 }
 .block_3{
-  background-image: url('/Users/yarovoy/Desktop/Teacher day/background 2.png');
+  background-image: url('background 2.png');
   width: 1440px;
   height: 531px;
   display: flex;
@@ -325,19 +325,19 @@ audio{
 }
 @font-face {
   font-family:"Cadet"; 
-  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/Cadet-Black.ttf") format("truetype"); 
+  src: url("Cadet-Black.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
 @font-face {
   font-family:"Deserved"; 
-  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/Deserved-Regular.ttf") format("truetype"); 
+  src: url("Deserved-Regular.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
 @font-face {
   font-family:"gaoel"; 
-  src: url("/Users/yarovoy/Desktop/Teacher day/fonts/gaoel.ttf") format("truetype"); 
+  src: url("gaoel.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
